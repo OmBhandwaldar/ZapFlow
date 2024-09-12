@@ -20,6 +20,13 @@ ZapFlow is a custom-built automation platform inspired by Zapier, designed to st
 - Kafka: Implemented Kafka for event-driven communication.
 - Docker: Deployed the application in Docker containers, enabling easy scaling and consistent environments across different systems.
 
+## Working
+
+- frontend: Contains the code for the frontend of the application.
+- primary-backend: Acts as a first primary backend having user, trigger, action and zap routes for backend requests.
+- worker: Pulls tasks from kafka queue, performs the task and puts it back to the queue to perform the next task.
+- processor: Pulls remaining tasks from the database and puts it into the kafka queue.
+
 ## Impact
 
 - Increased Efficiency: Automated repetitive tasks, allowing the team to focus on strategic initiatives.
@@ -31,6 +38,6 @@ ZapFlow is a custom-built automation platform inspired by Zapier, designed to st
 To clone and run this project locally:
 
 ```bash
-git clone https://github.com/yourusername/ZapStream.git
-cd ZapStream
-docker-compose up --build
+git clone https://github.com/OmBhandwaldar/ZapFlow.git
+cd ZapFlow
+docker conpose up
