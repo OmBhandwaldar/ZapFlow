@@ -8,7 +8,7 @@ ZapFlow is a custom-built automation platform inspired by Zapier, designed to st
 
 ## Key Features
 
-- Custom Zaps: Created and implemented custom "Zaps" to automate multi-step workflows, tailored to handle specific business requirements.
+- <b>Custom Zaps</b>: Created and implemented custom "Zaps" to automate multi-step workflows, tailored to handle specific business requirements.
 - Business Process Automation: Designed workflows to handle complex business processes, significantly improving operational efficiency.
 - Tailored Solutions: Delivered automation solutions specific to unique business needs, saving time and allowing team members to focus on high-value tasks.
 
