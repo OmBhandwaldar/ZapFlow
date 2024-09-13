@@ -9,29 +9,29 @@ ZapFlow is a custom-built automation platform inspired by Zapier, designed to st
 ## Key Features
 
 - <b>Custom Zaps</b>: Created and implemented custom "Zaps" to automate multi-step workflows, tailored to handle specific business requirements.
-- Business Process Automation: Designed workflows to handle complex business processes, significantly improving operational efficiency.
-- Tailored Solutions: Delivered automation solutions specific to unique business needs, saving time and allowing team members to focus on high-value tasks.
+- <b>Business Process Automation</b>: Designed workflows to handle complex business processes, significantly improving operational efficiency.
+- <b>Tailored Solutions</b>: Delivered automation solutions specific to unique business needs, saving time and allowing team members to focus on high-value tasks.
 
 ## Technical Highlights
 
-- Node.js & Next.js: Used to build the backend and frontend, ensuring fast, scalable, and responsive application performance.
-- PostgreSQL & Prisma: Leveraged Prisma ORM to manage data persistence and database interactions with PostgreSQL.
-- Kafka: Implemented Kafka for event-driven communication.
-- Docker: Deployed the application in Docker containers, enabling easy scaling and consistent environments across different systems.
+- <b>Node.js & Next.js</b>: Used to build the backend and frontend, ensuring fast, scalable, and responsive application performance.
+- <b>PostgreSQL & Prisma</b>: Leveraged Prisma ORM to manage data persistence and database interactions with PostgreSQL.
+- <b>Kafka</b>: Implemented kafka to handle actions and triggers.
+- <b>Docke</b>r: Deployed the application in Docker containers, enabling easy scaling and consistent environments across different systems.
 
 ## Working
 
-- frontend: Contains the code for the frontend of the application.
-- hooks: Extracts data from the webhook URL and handles zap.
-- primary-backend: Acts as a first primary backend having user, trigger, action and zap routes for backend requests.
-- worker: Pulls tasks from kafka queue, performs the task and puts it back to the queue to perform the next task.
-- processor: Pulls remaining tasks from the database and puts it into the kafka queue.
+- <b>frontend</b>: Contains the code for the frontend of the application.
+- <b>hooks</b>: Extracts data from the webhook URL and handles zap.
+- <b>primary-backend</b>: Acts as a first primary backend having user, trigger, action and zap routes for backend requests.
+- <b>worker</b>: Pulls actions from kafka queue, executes the action and puts it back to the queue to execute the next action.
+- <b>processor</b>: Pulls remaining actions from the database and puts it into the kafka queue.
 
 ## Impact
 
-- Increased Efficiency: Automated repetitive tasks, allowing the team to focus on strategic initiatives.
-- Improved Workflow Management: Optimized workflows, reducing manual intervention and improving process efficiency.
-- Time Savings: Achieved significant time savings for the team by automating mundane and repetitive tasks.
+- <b>Increased Efficiency</b>: Automated repetitive tasks, allowing the team to focus on strategic initiatives.
+- <b>Improved Workflow Management</b>: Optimized workflows, reducing manual intervention and improving process efficiency.
+- <b>Time Savings</b>: Achieved significant time savings for the team by automating mundane and repetitive tasks.
 
 ## Getting Started
 
