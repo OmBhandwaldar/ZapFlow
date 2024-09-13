@@ -2,7 +2,7 @@
 
 Technologies:  Node.js, Next.js, PostgreSQL, Prisma, Kafka, Docker
 
-## Project Overview
+##  Overview
 
 ZapFlow is a custom-built automation platform inspired by Zapier, designed to streamline complex workflows by integrating various applications and automating repetitive tasks. The project focuses on enhancing efficiency and productivity across multiple business processes.
 
@@ -27,11 +27,6 @@ ZapFlow is a custom-built automation platform inspired by Zapier, designed to st
 - <b>worker</b>: Pulls actions from kafka queue, executes the action and puts it back to the queue to execute the next action.
 - <b>processor</b>: Pulls remaining actions from the database and puts it into the kafka queue.
 
-## Impact
-
-- <b>Increased Efficiency</b>: Automated repetitive tasks, allowing the team to focus on strategic initiatives.
-- <b>Improved Workflow Management</b>: Optimized workflows, reducing manual intervention and improving process efficiency.
-- <b>Time Savings</b>: Achieved significant time savings for the team by automating mundane and repetitive tasks.
 
 ## Getting Started
 
