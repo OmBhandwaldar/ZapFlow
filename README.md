@@ -1,7 +1,6 @@
 # ZapFlow
 
-Duration: May 2024 – June 2024  
-Technologies: Node.js, Next.js, PostgreSQL, Prisma, Kafka, Redis, Docker
+Technologies: Node.js, Next.js, PostgreSQL, Prisma, Kafka, Docker
 
 ## Project Overview
 
@@ -23,6 +22,7 @@ ZapFlow is a custom-built automation platform inspired by Zapier, designed to st
 ## Working
 
 - frontend: Contains the code for the frontend of the application.
+- hooks: Extracts data from the webhook URL and handles zap.
 - primary-backend: Acts as a first primary backend having user, trigger, action and zap routes for backend requests.
 - worker: Pulls tasks from kafka queue, performs the task and puts it back to the queue to perform the next task.
 - processor: Pulls remaining tasks from the database and puts it into the kafka queue.
@@ -40,4 +40,4 @@ To clone and run this project locally:
 ```bash
 git clone https://github.com/OmBhandwaldar/ZapFlow.git
 cd ZapFlow
-docker conpose up
+docker compose up
