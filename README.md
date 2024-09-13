@@ -1,6 +1,6 @@
 # ZapFlow
 
-Technologies: Node.js, Next.js, PostgreSQL, Prisma, Kafka, Docker
+Technologies:  Node.js, Next.js, PostgreSQL, Prisma, Kafka, Docker
 
 ## Project Overview
 
