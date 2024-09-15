@@ -35,4 +35,4 @@ To clone and run this project locally:
 ```bash
 git clone https://github.com/OmBhandwaldar/ZapFlow.git
 cd ZapFlow
-docker compose up
+docker-compose up
